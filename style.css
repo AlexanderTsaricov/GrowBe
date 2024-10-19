@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    .menu_links {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .menuLink {
+        text-decoration: none;
+        color: black;
+        font-family: Gilroy-Medium, sans-serif;
+        font-size: 14px;
+        line-height: 16.41px;
+        text-align: center;
+        margin: 0 10px;    
+    }
+    .menu_home {
+        color: orangered;
+    }
+}
+.content {
+    display: flex;
+}
+
