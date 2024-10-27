@@ -2,10 +2,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.contentCenter {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 40px 270px;
     .menu_links {
         display: flex;
         justify-content: center; 
@@ -27,9 +30,11 @@ body {
 }
 .content {
     display: flex;
-    padding: 80px 270px;
+    gap: 41px;
+    flex-wrap: wrap;
     .content_textbox {
-        margin: 80px 40px;
+        margin: 80px 0;
+        max-width: 522px;
         .content_textBox_heading {
             font-family: Gilroy-Bold;
             font-size: 60px;
@@ -69,7 +74,7 @@ body {
     } 
     
     .content_img {
-        margin-right: 40px;
+        max-width: 607px;
     }
 
 }
@@ -79,7 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     .footer_logo {
-        margin: 100px;
+        margin: 100px 0 ;
     }
 }
 
