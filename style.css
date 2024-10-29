@@ -6,6 +6,9 @@ body {
     padding-left: calc(50% - 585px);
     padding-right: calc(50% - 585px);
 }
+
+/*head list*/
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -91,4 +94,121 @@ body {
     }
 }
 
+
+/*features & services*/
+
+.headBox {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+
+    gap: 61px;
+    .headBox_card {
+        padding: 40px 0 25px 30px;
+        max-width: 370px;
+        .headBox_card_textBox {
+            margin: 25px 0;
+            .headBox_card_head {
+                font-family: Gilroy-Bold;
+                font-size: 24px;
+                line-height: 28.13px;
+                text-align: left;
+            }
+            .headBox_card_text{
+                font-family: Gilroy-Regular;
+                font-size: 15px;
+                line-height: 22.5px;
+                text-align: left;
+                color: #666666;
+            }
+        }
+        .headBox_card_link {
+            text-decoration: none;
+            font-family: Gilroy-Bold;
+            font-size: 11px;
+            line-height: 16.5px;
+            text-align: left;
+            color: black;
+        }
+    }
+    .shadowCard {
+        box-shadow: 15px 25px 56px 6px #0000000F;
+        padding: 40px 31px 25px 30px;
+    }
+}
+
+.footBox {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background-color: #FAFAFA;
+    ;
+    .footBox_headTextBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footBox_headTextBox_headText{
+            font-family: Gilroy-Bold;
+            font-size: 45px;
+            line-height: 52.73px;
+            text-align: left;
+            text-align: center;
+            margin: 19px;
+        }
+        .footBox_headTextBox_text {
+            font-family: Gilroy-Regular;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #666666;
+            text-align: center;
+            max-width: 682px;
+            margin: 0;
+        }
+    }
+    .footBox_cardBox {
+        margin-top: 55px;
+        margin-bottom: 100px;
+        display: flex;
+        gap: 30px;
+        .footBox_cardBox_card {
+            max-width: 370px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 15px 25px 60px -5px #0000001A;
+            padding-bottom: 50px;
+
+            .footBox_cardBox_headText {
+                font-family: Gilroy-Bold;
+                font-size: 24px;
+                line-height: 28.13px;
+                text-align: left;
+                text-align: center;
+            }
+            .footBox_cardBox_card_text {
+                font-family: Gilroy-Regular;
+                font-size: 15px;
+                line-height: 22.5px;
+                text-align: center;
+                color: #AAAAAA;
+                max-width: 310px;
+                margin: 22px 30px 64px 30px;
+            }
+            .footBox_cardBox_card_button {
+                max-width: 150px;
+                background: #F25822;
+                border: none;
+                padding: 15px 21px 15px 46px;
+                border-radius: 50px;
+                font-family: Gilroy-Bold;
+                font-size: 13px;
+                line-height: 19.5px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}
 
