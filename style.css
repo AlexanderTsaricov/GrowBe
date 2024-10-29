@@ -51,7 +51,7 @@ body {
         .content_buttonBox{
             display: flex;
             margin-top: 35px;
-            .content_buttonBox_button {
+            .content_buttonBox_buttonStart {
                 padding: 15px 50px;
                 border-radius: 50px;
                 background-color: #F25822;
@@ -63,12 +63,14 @@ body {
                 font-weight: 500;
                 margin-right: 72px;
             }
-            .content_buttonBox_text{
+            .content_buttonBox_buttonWatch{
                 font-family: Gilroy-Bold, sans-serif;
                 font-size: 15px;
                 line-height: 17.58px;
                 text-align: left;
                 color: #AAAAAA;
+                background: none;
+                border: none;
             }
         }
     } 
@@ -81,8 +83,9 @@ body {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     .footer_logo {
         margin: 100px 0 ;
     }
